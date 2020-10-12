@@ -1,9 +1,9 @@
 const sections =
     document.querySelectorAll("section");
 
-section.forEach((section) => {
+sections.forEach((section) => {
     const divs =
-        section.querySelectorAll("div");
+        section.querySelectorAll(".around");
 
     gsap.from(divs, {
         opacity: 0,
