@@ -20,7 +20,7 @@
 
     <!--main class="container" -->
     <!-- NAV START -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Crispees</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +28,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#about">Om os</a>
+                    <a class="nav-link" href="#commodity">Råvarer</a>
+                    <a class="nav-link" href="#explore">Udforsk</a>
+                    <a class="nav-link" href="#products">Varianter</a>
                 </div>
             </div>
         </div>
@@ -41,16 +41,19 @@
     <!-- SPLASH -->
     <header class="hero py-5 text-white text-center">
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="row text-md-right">
-                    <div class="col-xs-6">
-                        <img src="img/crispees_bag.png" alt="chips"></div>
-                </div>
-                <div class="row text-md-left">
-                    <div class="col-xs-6">
-                        <h1 class="display-4">Brings people together</h1>
-                    </div>
-                </div>
+            <div class="row">
+                <!--        <div class="row text-md-right">-->
+                <!--        <div class="col-12 col-sm-6 order-sm-2 dark d-flex">-->
+                <img src="img/crispees_bag.png" alt="chips" class="col-6 offset-3 col-sm-6 offset-sm-0 order-sm-2 dark">
+                <!--        </div>-->
+                <!--        <div class="col-12 col-sm-6 order-sm-1">-->
+                <h1 class="col-12 col-sm-6 order-sm-1 display-4 align-self-center mt-md-5 pt-md-5">Brings people together</h1>
+                <!--        </div>-->
+                <!--        </div>-->
+                <!--
+        <div class="row text-md-left">
+        </div>
+-->
             </div>
         </div>
     </header>
@@ -66,14 +69,15 @@
 
     </section>
 
-    <section id="commodity">
-        <div class="d-flex flex-column-reverse">
-            <img id="mobile" src="img/potatoes_mobile.png" alt="potatoes">
-            <img id="web" src="img/potatoes.png" alt="potatoes">
-            <div class="text-center">
-                <h2>De bedste råvarer</h2>
+    <section class="container" id="commodity">
+        <div class="row-md-12 d-flex flex-column-reverse flex-sm-row">
+            <img src="img/potatoes_mobile.png" alt="potatoes" class="col-12 col-sm-6 flex-row-reverse object-fit">
+            <!--            <img id="web" src="img/potatoes.png" alt="potatoes">-->
+            <div class="col-md-6 flex-row-reverse">
+                <h2 class="col-12 col-sm-6">De bedste råvarer</h2>
                 <p>Vores chips er lavet fra økologiske kartofler dyrket på Fanø.Kartoflerne er håndsorteret, så ingen dårlige slipper igennem. Vores landmænd går meget op i kvaliteten af vores chips, så du kan nyde dem til fulde!</p>
             </div>
+            <img src="img/paprika_crispees.png" alt="chips" class="paprika h-25 offset-md-5 align-self-center">
 
         </div>
 
@@ -145,5 +149,8 @@
         </div>
     </section>
     <!--main-->
-    <script src=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <script src="index.js"></script>
+
 </body></html>
