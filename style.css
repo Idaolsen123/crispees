@@ -1,3 +1,7 @@
+.object-fit {
+    object-fit: cover;
+}
+
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
     color: #BDA07F;
@@ -13,6 +17,13 @@
     /*    width: 35vw;*/
 
 }
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+#commodity {}
 
 h2 {
     font-size: 1.7rem;
@@ -76,6 +87,12 @@ p {
 
 #commodity {
     background-color: #EEEADD;
+    background-size: cover;
+}
+
+.paprika {
+    position: absolute;
+
 }
 
 /*
