@@ -14,7 +14,7 @@ sections.forEach((section) => {
             trigger: section,
             start: "top center",
             end: "center center",
-            markers: true,
+//            markers: true,
             scrub: true,
         }
     })
