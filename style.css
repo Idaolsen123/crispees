@@ -13,7 +13,7 @@ html {
 
 .hero {
     background-size: cover;
-    height: 80vw;
+    height: 78vw;
     background-image: url(img/splash_nature.png);
 }
 
@@ -48,6 +48,8 @@ h3 {
 p {
     font-family: 'Raleway', sans-serif;
     color: #605344;
+    line-height: 1.85rem;
+
 }
 
 #splash div {}
@@ -57,7 +59,7 @@ p {
     */
     font-family: 'Raleway', sans-serif;
     font-style: italic;
-    font-size: 2.4rem;
+    font-size: 2.18rem;
     /*    margin-right: 20%;*/
 }
 
@@ -72,6 +74,7 @@ p {
 }
 
 #about h2 {
+    padding-top: 0;
     margin-bottom: 2%;
     font-size: 1.7rem;
     font-family: 'Euphemia UCAS';
@@ -94,23 +97,24 @@ p {
     background-size: cover;
 }
 
-#commodity p {
-    padding-left: 15%;
-    padding-right: 10%;
-    padding-top: 5%;
+h2 {
+    padding-top: 10px;
+}
+
+
+
+.paprika {
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 75%;
 }
 
 .com_position {
     position: relative;
 }
 
-.paprika {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    width: 17%;
-}
 
 /*
 
@@ -128,14 +132,6 @@ p {
     padding: 0;
 }
 
-
-#commodity img {
-    /*
-    width: 100%;
-
-*/
-}
-
 #web {
     display: none;
 }
@@ -150,6 +146,7 @@ p {
 
 #products {
     background-color: #EEEADD;
+    padding-bottom: 15px;
 }
 
 .chips_bags {
@@ -164,8 +161,12 @@ p {
 
 .element img {
     width: 100%;
-    margin-top: 18px;
-    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
 }
 
 .ingredients h3 {
@@ -174,4 +175,76 @@ p {
 
 .carousel-item {
     margin-bottom: 37px;
+}
+
+footer {
+    background-color: #645749;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.footer p {
+    color: #BDA07F;
+}
+
+.footer img {
+    width: 6.7vw;
+    display: flex;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #about p,
+    #explore p {
+        margin-bottom: 2%;
+    }
+
+    #about,
+    #explore {
+        padding-bottom: 50px;
+    }
+
+    #about img,
+    #explore img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #commodity p {
+        padding-left: 15%;
+        padding-right: 10%;
+        padding-top: 5%;
+        line-height: 1.7rem;
+    }
+
+    .com_position {
+        position: relative;
+    }
+
+    .paprika {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        width: 17%;
+    }
+
+    .footer {
+        padding-bottom: 5px;
+    }
+
+    .footer img {
+        width: 3.5vw;
+        display: flex;
+    }
 }

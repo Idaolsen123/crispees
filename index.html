@@ -26,7 +26,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#about">Om os</a>
                     <a class="nav-link" href="#commodity">Råvarer</a>
@@ -44,10 +44,10 @@
             <div class="row">
                 <!--        <div class="row text-md-right">-->
                 <!--        <div class="col-12 col-sm-6 order-sm-2 dark d-flex">-->
-                <img src="img/crispees_bag.png" alt="chips" class="col-6 offset-3 col-sm-6 offset-sm-0 order-sm-2 dark">
+                <img src="img/crispees_bag.png" alt="chips" class="col-6 offset-3 col-sm-0 offset-sm-0 order-sm-2 dark">
                 <!--        </div>-->
                 <!--        <div class="col-12 col-sm-6 order-sm-1">-->
-                <h1 class="col-12 col-sm-6 order-sm-1 display-4 align-self-center mt-md-5 pt-md-5">Brings people together</h1>
+                <h1 class="col-12 col-sm-6 order-sm-1 align-self-center mt-md-5 pt-md-5">Brings people together</h1>
                 <!--        </div>-->
                 <!--        </div>-->
                 <div class="row text-md-left">
@@ -82,7 +82,6 @@
 
     <section id="explore">
         <div class="around">
-            <br>
             <h2>Gå på opdagelse i en ny verden</h2>
 
             <p>Crispees er en let nydelse lavet fra friske råvarer og tilsat de bedste krydderier. Lige noget for enhver smag!
@@ -92,62 +91,68 @@
         </div>
     </section>
     <section id="products">
-        <div class="around">
-            <br>
-            <h2>Varianter</h2>
-            <br>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="chips_bags">
-                            <div class="d-flex flex-row">
-                                <img class="bag" src="img/crispees_bag.png" class="d-block w-100" alt="paprika chips">
-                                <div class="ingredients">
-                                    <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="chips_bags">
-                            <div class="d-flex flex-row">
-                                <img class="bag" src="img/red_onion_crispees.png" class="d-block w-100" alt="paprika chips">
-                                <div class="ingredients">
-                                    <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="chips_bags">
-                            <div class="d-flex flex-row">
-                                <img class="bag" src="img/chili_lime_crispees.png" class="d-block w-100" alt="paprika chips">
-                                <div class="ingredients">
-                                    <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
-                                </div>
+        <h2>Varianter</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="chips_bags">
+                        <div class="d-flex flex-row">
+                            <img class="bag" src="img/crispees_bag.png" class="d-block w-100" alt="paprika chips">
+                            <div class="ingredients">
+                                <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
+                <div class="carousel-item">
+                    <div class="chips_bags">
+                        <div class="d-flex flex-row">
+                            <img class="bag" src="img/red_onion_crispees.png" class="d-block w-100" alt="paprika chips">
+                            <div class="ingredients">
+                                <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="chips_bags">
+                        <div class="d-flex flex-row">
+                            <img class="bag" src="img/chili_lime_crispees.png" class="d-block w-100" alt="paprika chips">
+                            <div class="ingredients">
+                                <h3>Spicy paprika og salt</h3><img src="img/ingredients_1.png" class="d-block w-100" alt="ingredienser">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="element">
-                <img src="img/5element.png" alt="crispees">
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
         </div>
+
     </section>
+
+    <footer>
+        <div class="footer">
+            <p>©2020 Crispees</p>
+            <a href="https://www.facebook.com/Crispees-111801120692598">
+                <img src="img/facebook-icon-16-256.png" alt="facebook_crispees">
+            </a>
+        </div>
+        <div class="element">
+            <img src="img/5element.png" alt="crispees">
+        </div>
+    </footer>
 
     <script src="gsap.min.js"></script>
     <script src="ScrollTrigger.min.js"></script>
