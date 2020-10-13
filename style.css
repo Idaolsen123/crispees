@@ -201,12 +201,17 @@ footer {
 
 @media only screen and (min-width: 768px) {
     .hero {
+        background-size: cover;
+        height: 60vw;
+        background-image: url(img/splash_nature.png);
+    }
+
+    .hero {
         padding-left: 8%;
     }
 
     .hero h1 {
         font-size: 2.5rem;
-        padding-top: 12%;
     }
 
     .hero img {
