@@ -27,7 +27,11 @@ html {
     padding: 0;
 }
 
-#commodity {}
+
+#explore h2,
+#products h2 {
+    margin-bottom: 1.5%;
+}
 
 h2 {
     font-size: 1.7rem;
@@ -222,7 +226,20 @@ footer {
     #about p,
     #explore p {
         margin-bottom: 2%;
+        padding-left: 17%;
+        padding-right: 17%;
+        font-size: 1.1rem;
     }
+
+    #commodity p {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+
+    }
+
 
     #about,
     #explore {
@@ -255,11 +272,16 @@ footer {
     }
 
     .footer {
-        padding-bottom: 5px;
+/*        padding-bottom: 5px;*/
+        padding-top: 2%;
     }
 
     .footer img {
         width: 3.5vw;
         display: flex;
+    }
+
+    .element {
+        padding-top: 2%;
     }
 }
