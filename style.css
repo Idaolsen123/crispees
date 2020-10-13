@@ -8,7 +8,24 @@ html {
 
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
+    font-size: 1.7rem;
+
+}
+
+.navbar-light .navbar-brand {
     color: #BDA07F;
+}
+
+.nav-link {
+    font-family: 'Euphemia UCAS';
+    text-transform: uppercase;
+    font-size: 0.97rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #BDA07F;
+    padding-left: 0.7rem;
 }
 
 .hero {
@@ -34,7 +51,7 @@ html {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: 'Euphemia UCAS';
     word-spacing: -0.5vw;
     color: #BDA07F;
@@ -52,7 +69,9 @@ h3 {
 p {
     font-family: 'Raleway', sans-serif;
     color: #605344;
-    line-height: 1.85rem;
+    line-height: 1.7rem;
+    font-size: 0.95rem;
+    padding-top: 3px;
 
 }
 
@@ -80,7 +99,6 @@ p {
 #about h2 {
     padding-top: 0;
     margin-bottom: 2%;
-    font-size: 1.7rem;
     font-family: 'Euphemia UCAS';
     word-spacing: -0.5vw;
     color: #BDA07F;
@@ -215,7 +233,7 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     .hero img {
@@ -240,6 +258,11 @@ footer {
 
     }
 
+    p {
+        line-height: 1.85rem;
+        padding-top: 0%;
+    }
+
 
     #about,
     #explore {
@@ -259,6 +282,10 @@ footer {
         line-height: 1.7rem;
     }
 
+    #products h2 {
+        padding-bottom: 3%;
+    }
+
     .com_position {
         position: relative;
     }
@@ -272,7 +299,7 @@ footer {
     }
 
     .footer {
-/*        padding-bottom: 5px;*/
+        /*        padding-bottom: 5px;*/
         padding-top: 2%;
     }
 
