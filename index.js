@@ -1,9 +1,9 @@
 const sections =
     document.querySelectorAll("section");
 
-section.forEach((section) => {
+sections.forEach((section) => {
     const divs =
-        section.querySelectorAll("div");
+        section.querySelectorAll(".around");
 
     gsap.from(divs, {
         opacity: 0,
@@ -14,7 +14,7 @@ section.forEach((section) => {
             trigger: section,
             start: "top center",
             end: "center center",
-            markers: true,
+//            markers: true,
             scrub: true,
         }
     })

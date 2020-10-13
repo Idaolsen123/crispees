@@ -94,11 +94,22 @@ p {
     background-size: cover;
 }
 
+#commodity p {
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.com_position {
+    position: relative;
+}
+
 .paprika {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
+    width: 17%;
 }
 
 /*
