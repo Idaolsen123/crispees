@@ -119,8 +119,13 @@ p {
     background-size: cover;
 }
 
+#commodity h2 {
+    padding-top: 5%;
+}
+
 h2 {
     padding-top: 10px;
+    padding-bottom: 1%;
 }
 
 
@@ -281,15 +286,19 @@ footer {
 
     #about img,
     #explore img {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 65px;
+        padding-right: 65px;
     }
 
     #commodity p {
-        padding-left: 15%;
+        padding-left: 17%;
         padding-right: 10%;
-        padding-top: 5%;
+        padding-top: 3%;
         line-height: 1.7rem;
+    }
+
+    #commodity h2 {
+        padding-top: 1%;
     }
 
     #products h2 {
